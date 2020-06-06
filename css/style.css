@@ -1,0 +1,669 @@
+@import url("media-queries.css");
+/* All Element CSS Start */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* All Element CSS End */
+
+/* Top Bar CSS Start */
+#topBar
+{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 20px;
+    background-color: black;
+}
+.social-media-icons
+{
+    width: 50%;
+    min-height: 20px;
+    text-align: left;
+    align-items: center;
+}
+.customer-account-activity-icons
+{
+    width: 50%;
+    min-height: 20px;
+    text-align: right;
+    align-items: center;
+}
+.social-media-icons ul, .customer-account-activity-icons ul
+{
+   margin: 0px 15px;
+}
+.social-media-icons ul li, .customer-account-activity-icons ul li
+{
+    display: inline-block;
+    list-style: none;
+}
+.social-media-icons ul li a, .customer-account-activity-icons ul li a
+{
+    color: white;
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+}
+.social-media-icons ul li a:hover, .customer-account-activity-icons ul li a:hover
+{
+   background-color: #f57c00;
+}
+.modal-body
+{
+    text-align: left !important;
+}
+.payment-icons img
+{
+    width: 32px;
+}
+/* Top Bar CSS End */
+
+/* Menu Bar CSS Start */
+#menuBar
+{
+    min-height: 60px !important;
+    box-shadow: 0px 5px 5px gainsboro !important;
+}
+.navbar
+{
+    padding: 0px 16px !important;
+    min-height: 60px !important;
+}
+.navbar-brand
+{
+    margin: 0px 10px 0px -10px !important;
+    padding: 0px !important;
+}
+#menuBar img
+{
+    width: 240px !important;
+    height: 60px !important;
+}
+.navbar-nav
+{
+    margin: 0px auto !important;
+}
+.nav-item
+{
+    font-size: 0.75rem !important;
+}
+.nav-link
+{
+    color: black !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+}
+.nav-link:hover
+{
+    background-color: #f57c00 !important;
+}
+.dropdown-menu
+{
+    min-width: 90px !important;
+    margin: 12px 0px 0px 0px !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+}
+.dropdown-item
+{
+    padding: 0px 8px !important;
+    line-height: 30px!important;
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+}
+.dropdown-item:hover
+{
+    border-left: 1px solid transparent !important;
+    background-color: #f57c00 !important;
+}
+input[type=search]:focus
+{
+    border: 1px solid #f57c00 !important;
+    box-shadow: 0px 0px 5px #f57c00 !important;
+}
+.btn:hover
+{
+    color: white !important;
+    background-color: #f57c00 !important;
+} 
+.btn-outline-success
+{
+    color: #f57c00 !important;
+    border-color: #f57c00 !important;
+}
+/* Menu Bar CSS End */
+
+/* Slider CSS Start */
+.slider-height
+{
+    height: 85vh;
+}
+.slider-text
+{
+    color: White !important;
+    font-weight: bolder !important;
+    -webkit-text-stroke: 0.4px #f57c00 !important;
+}
+.btn-on-slider
+{
+    color: white !important;
+    font-weight: bolder !important;
+}
+.btn-buy-now
+{
+    width: 120px;
+    color: white !important;
+    font-weight: bolder !important;
+}
+.btn:focus
+{
+    box-shadow: none !important;
+}
+/* Slider CSS End */
+
+/* About Us CSS Start */
+#aboutUs
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.about-us-heading
+{
+    width: 100%;
+    margin: 0px;
+}
+.about-us-heading h1
+{
+	color: black;
+    text-align: center;
+    position: relative;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 30px 0px;
+}
+.about-us-heading h1::after 
+{
+	content: "";
+	width: 96%;
+	position: absolute;
+	margin: 0px auto;
+	height: 4px;
+	background: #f57c00;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.about-us-content
+{
+    width: 100%;
+    margin: 0px 0px 30px;
+    padding: 0px 20px;
+    text-align: justify;
+}
+/* About Us CSS End */
+
+/* Service Cards CSS Start */
+#why-al-rahim-mart
+{
+    padding: 30px 0px;
+    background-color: black;
+}
+#why-al-rahim-mart h2 
+{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0px;
+}
+#why-al-rahim-mart h2::after 
+{
+	content: "";
+	width: 96%;
+	position: absolute;
+	margin: 0px auto;
+	height: 4px;
+	background: #f57c00;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.service-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards
+{
+    width: 46%;
+    height: 80px;
+    border: 1px solid #f57c00;
+    margin: 30px 0px;
+    display: flex;
+    box-shadow: 0px 0px 5px #f57c00;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.cards-icon
+{
+    color: #f57c00;
+    margin: 0px 10px 0px 0px;
+    font-size: 36px ;
+    text-align: center !important;
+    font-weight: 500;
+    -webkit-text-stroke: 0.5px black !important;
+}
+.cards-content
+{
+    color: #f57c00;
+    text-align: center !important;
+    -webkit-text-stroke: 0.5px black !important;
+    font-weight: bolder !important;
+}
+/* Service Cards CSS End */
+
+/* Products CSS Start */
+#products
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#breadCrumbNavigation
+{
+    margin: 10px 0px 0px 0px;
+}
+.product-heading
+{
+    width: 100%;
+    margin: 0px;
+}
+.product-heading h1
+{
+	color: black;
+    text-align: center;
+    position: relative;
+	text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.product-heading h1::after 
+{
+	content: "";
+	width: 96%;
+	position: absolute;
+	margin: 0px auto;
+	height: 4px;
+	background: #f57c00;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.product-content
+{
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.see-more-products
+{
+    text-align: right;
+    margin: 0px 0px 20px 0px;
+}
+.see-more-products a
+{
+    padding: 10px;
+    text-decoration: none;
+}
+.see-more-products a:hover
+{
+    color: white !important;
+    border-radius: 5px;
+    background-color: #f57c00;
+}
+.card-text
+{
+    text-align: justify;
+}
+.product-content img
+{
+    width: 100%;
+    height: 150px;
+}
+.product-content a, .product-content a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+.number-color
+{
+    color: #f57c00 !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+.page-item.active .page-link
+{
+    color: white !important;
+    background-color: #f57c00 !important;
+    border-color: #f57c00 !important;
+}
+#productPageNavigation
+{
+    margin: 0px 0px 20px 0px;
+}
+.product-price
+{
+    display: flex;
+    margin: 0px 0px 10px 0px;
+}
+.old-price
+{
+    width: 50%;
+    color: grey;
+    text-align: left;
+}
+.new-price
+{
+    width: 50%;
+    text-align: right;
+}
+/* Products CSS End */
+
+/* Testimonial CSS Start */
+#testimonials-slider
+{
+    padding: 40px 20px;
+    background-color: black;
+}
+#testimonials-slider h2 
+{
+    color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+}
+#testimonials-slider h2::after 
+{
+	content: "";
+	width: 100%;
+	position: absolute;
+	margin: 0px auto;
+	height: 4px;
+	background: #f57c00;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel .item 
+{
+	color: white;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box 
+{
+	width: 135px;
+	height: 135px;
+	margin: 30px auto 0px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img 
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial 
+{
+	padding: 30px 0 10px;
+}
+.carousel .overview 
+{	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #f57c00;
+}
+.carousel .star-rating i {
+	font-size: 18px;
+    color: #f57c00;
+    margin-bottom: 30px;
+}
+.carousel-indicators
+{
+    margin: 0px auto;
+}
+.carousel-control i 
+{
+    font-size: 28px;
+}
+/* Testimonial CSS End */
+
+/* Contact Us CSS Start */
+#contactUs
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us-heading
+{
+    width: 100%;
+    margin: 0px;
+}
+#contactUs h1
+{
+	color: black;
+    text-align: center;
+    position: relative;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 30px 0px;
+}
+#contactUs h1::after 
+{
+	content: "";
+	width: 96%;
+	position: absolute;
+	margin: 0px auto;
+	height: 4px;
+	background: #f57c00;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.contact-us-form
+{
+    margin: 20px 0px;
+    padding: 0px 20px;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=number]:focus, textarea:focus, select:focus
+{
+    border: 1px solid #f57c00 !important;
+    box-shadow: 0px 0px 5px #f57c00 !important;
+}
+/* Contact Us CSS End */
+
+/* Divider Image CSS Start */
+#dividerImage
+{
+    width: 100%;
+}
+.image img
+{
+    width: 100%;
+    height: 300px;
+}
+/* Divider Image CSS End */
+
+/* Footer CSS Start */
+#footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 350px;
+    width: 100%;
+    color: black;
+    padding: 30px 20px 0px;
+    justify-content: space-between;
+    align-self: center;
+    background-color: white;
+    box-shadow: 0px -5px 5px gainsboro !important;
+}
+.footer-content h3
+{
+    color: black;
+    align-self: flex-start;
+}
+.footer-content hr
+{
+    width: 30px;
+    height: 2px;
+    border-width: 0px;
+    color: #f57c00;
+    background-color: #f57c00;
+    text-align: left;
+}
+.footer-content ul
+{
+    padding: 0px;
+}
+.footer-content ul li
+{
+    list-style: none;
+    line-height: 30px;
+}
+.footer-content ul li i
+{
+    color: #f57c00;
+}
+
+.footer-content ul li a
+{
+    color:black;
+    text-decoration: none;
+}
+.footer-content .menu-links li a
+{
+    display: block;
+}
+.footer-content .menu-links li a:hover
+{
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #f57c00;
+}
+.links li
+{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #f57c00;
+    padding: 3px;
+    text-align: center;
+}
+.links li:hover
+{
+    border: 1px solid #f57c00 !important;
+    background-color: white !important;
+    cursor: pointer;
+}
+.links li i
+{
+    color: white !important;
+    font-size: 24px;
+}
+.links li:hover i
+{
+    color: #f57c00 !important;
+}
+/* Footer CSS End */
+
+/* Bottom Bar CSS Start */
+#bottomBar
+{
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+    background-color: black;
+}
+.copyright
+{
+    color: white;
+    width: 50%;
+    margin: 0px 0px 0px 15px;
+    min-height: 20px;
+    text-align: left;
+}
+.credit
+{
+    color: white;
+    width: 50%;
+    margin: 0px 15px 0px 0px;
+    min-height: 20px;
+    text-align: right;
+}
+.credit a, .credit a:hover
+{
+    color: #f57c00;
+    text-decoration: none;
+}
+span
+{
+    color: #f57c00;
+}
+.copyright h6, .credit h6
+{
+    font-size: 12px !important;
+}
+/* Bottom Bar CSS End */
+
+/* Top Button CSS Start */
+.top-button
+{
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    font-size: 25px;
+    background-color: black;
+    opacity: 0.6;
+    text-align: center;
+    position: fixed;
+    right: 2%;
+    top: 87%;
+    float: right;
+}
+.top-button a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.top-button a:hover 
+{
+    color: #f57c00;
+}
+/* Top Button CSS Start */

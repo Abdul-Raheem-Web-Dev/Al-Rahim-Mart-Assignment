@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Tab-Icon/Al-Rahim-Mart-Icon.png">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <link type="text/css" rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Al-Rahim Mart</title>
+</head>
+
+<body>
+    <!-- Main Div Start -->
+    <div class="main-div">
+    <!-- Top Bar Start -->
+    <div id="topBar">
+        <div class="social-media-icons">
+            <ul>
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square" title="Facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin" title="LinkedIn"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fab fa-instagram-square" title="Instagram"></i></a>
+                </li>
+                <li><a href="https://www.whatsapp.com"><i class="fab fa-whatsapp-square" title="Whatsapp"></i></a></li>
+                <li><a href="https://www.twitter.com"><i class="fab fa-twitter-square" title="Twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="customer-account-activity-icons">
+            <ul>
+                <li><a href="" data-toggle="modal" data-target="#signUp"><i class="fas fa-user-plus"
+                            title="Sign-Up"></i></a></li>
+                <div class="modal fade" id="signUp" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="validationDefault01">First name :</label>
+                                            <input type="text" class="form-control" id="validationDefault01"
+                                                placeholder="First Name" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="validationDefault02">Last name :</label>
+                                            <input type="text" class="form-control" id="validationDefault02"
+                                                placeholder="Last Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email Address :</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Email Address" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Password :</label>
+                                        <input type="password" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Password" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"
+                                                required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                Agree to terms and conditions
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-success"
+                                    data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-outline-success">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="" data-toggle="modal" data-target="#signIn"><i class="fas fa-sign-in-alt"
+                            title="Sign-In"></i></a></li>
+                <div class="modal fade" id="signIn" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Sign In</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email Address :</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Email Address" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Password :</label>
+                                        <input type="password" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Password" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"
+                                                required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                Agree to terms and conditions
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-success"
+                                    data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-outline-success">Sign In</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="" data-toggle="modal" data-target="#myWishList"><i class="fas fa-heart"
+                            title="My-Wishlist"></i></a></li>
+                <div class="modal fade" id="myWishList" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">My Wishlist</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Nothing in Wishlist
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-success"
+                                    data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-outline-success">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="" data-toggle="modal" data-target="#myCart"><i class="fas fa-cart-plus"
+                            title="My-Cart"></i></a></li>
+                <div class="modal fade" id="myCart" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">My Cart</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Nothing in Cart
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-success"
+                                    data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-outline-success">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="" data-toggle="modal" data-target="#checkOut"><i class="fas fa-money-check-alt"
+                            title="Check-Out"></i></a></li>
+                <div class="modal fade" id="checkOut" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Check Out</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5>Add Payment Information</h5>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="cardNumber">Card Number</label>
+                                            <input type="number" class="form-control" id="cardNumber">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="securityCode">Security Code</label>
+                                            <input type="number" class="form-control" id="securityCode">
+                                            <br />
+                                            <div class="payment-icons">
+                                                <img src="./images/Icons/mastercard.png" alt="">
+                                                <img src="./images/Icons/visa.png" alt="">
+                                                <img src="./images/Icons/paypal.png" alt="">
+                                                <img src="./images/Icons/western-union.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="expiryDate">Expiry Date</label>
+                                            <select id="expiryDate" class="form-control">
+                                                <option selected>Month</option>
+                                                <option>01</option>
+                                                <option>02</option>
+                                                <option>03</option>
+                                                <option>04</option>
+                                                <option>05</option>
+                                                <option>06</option>
+                                                <option>07</option>
+                                                <option>08</option>
+                                                <option>09</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                            </select>
+                                            <br />
+                                            <select class="form-control">
+                                                <option selected>Year</option>
+                                                <option>2021</option>
+                                                <option>2022</option>
+                                                <option>2023</option>
+                                                <option>2024</option>
+                                                <option>2025</option>
+                                                <option>2026</option>
+                                                <option>2027</option>
+                                                <option>2028</option>
+                                                <option>2029</option>
+                                                <option>2030</option>
+                                                <option>2031</option>
+                                                <option>2032</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Agree to terms and conditions
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-success"
+                                    data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-outline-success">Check Out</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Menu Bar Start -->
+    <div id="menuBar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="./images/Header-Logo/Al-Rahim-Mart-Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#scrollToAboutUs">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fashions
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./mens.html">Mens</a>
+                            <a class="dropdown-item" href="./womens.html">Womens</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Electronics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./mobiles.html">Mobiles</a>
+                            <a class="dropdown-item" href="./computers.html">Computers</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#scrollToTestimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#scrollToContactUs">Contact Us</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Divider Start -->
+    <div id="dividerImage">
+        <div class="image">
+            <img src="./images/Divider/Mobiles-Product-Top-Divider-Image.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Bread Crumb Navigation Start -->
+    <div id="breadCrumbNavigation">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Electronics</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Mobiles</li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- Products Start -->
+    <div id="products">
+        <div class="product-heading">
+            <h1 id="scrollToProducts">Mobile Products</h1>
+        </div>
+        <div class="product-content">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - I</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - II</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - III</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - IV</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - V</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - VI</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - VII</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - VIII</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - IX</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/10.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - X</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - XI</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="">
+                        <div class="card h-100">
+                            <img src="./images/Mobiles/12.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Product - XII</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="product-price">
+                                    <div class="old-price"><s>
+                                            <h5>$-100</h5>
+                                        </s></div>
+                                    <div class="new-price">
+                                        <h5>$-75</h5>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-outline-success btn-lg btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="productPageNavigation">
+            <nav aria-label="...">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a href="#" class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link number-color" href="./mobiles.html">1
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link number-color" href="./mobiles2.html">
+                            2
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link number-color" href="./mobiles2.html">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Divider Start -->
+    <div id="dividerImage">
+        <div class="image">
+            <img src="./images/Divider/Mobiles-Product-Bottom-Divider-Image.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div id="footer">
+        <div class="footer-content">
+            <h3>Contact Information</h3>
+            <hr>
+            <ul>
+                <li><i class="fas fa-map-marker"></i>&nbsp;&nbsp;Head Office,<br />
+                    H-90/20, 11-F New-Karachi, Karachi, Pakistan</li><br>
+                <li><i class="fas fa-phone-alt"></i> : UAN : 111-000-111</li>
+                <li><i class="fas fa-phone-alt"></i> : CELL : 92-012-3456789</li>
+                <li><i class="far fa-envelope"></i> : info@alrahimmart.com</li>
+                <li><i class="far fa-envelope"></i> : jobs@alrahimmart.com</li>
+                <li><i class="fas fa-globe"></i> : contact@skype.arm</li>
+                <li><i class="fas fa-globe"></i> : www.alrahimmart.com</li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <h3>Website Menus</h3>
+            <hr>
+            <ul class="menu-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#scrollToAboutUs">About Us</a></li>
+                <li><a href="./index.html#scrollToProducts">Products</a></li>
+                <li><a href="./mens.html">Mens</a></li>
+                <li><a href="./womens.html">Womens</a></li>
+                <li><a href="./mobiles.html">Mobiles</a></li>
+                <li><a href="./computers.html">Computers</a></li>
+                <li><a href="./index.html#scrollToTestimonials">Testimonials</a></li>
+                <li><a href="./index.html#scrollToContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <h3>Social Media</h3>
+            <hr>
+            <ul class="links">
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square" title="Facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin" title="LinkedIn"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fab fa-instagram-square" title="Instagram"></i></a>
+                </li>
+                <li><a href="https://www.whatsapp.com"><i class="fab fa-whatsapp-square" title="Whatsapp"></i></a></li>
+                <li><a href="https://www.twitter.com"><i class="fab fa-twitter-square" title="Twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bottom Bar Start -->
+    <div id="bottomBar">
+        <div class="copyright">
+            <h6><span><i class="far fa-copyright"></i></span>&nbsp;Copyright, All Rights Reserved By <span>Al-Rahim
+                    Mart</span></h6>
+        </div>
+        <div class="credit">
+            <h6><span><i class="fas fa-code"></i></span>&nbsp;Design & Devloped By <span><a href="">Abdul
+                        Raheem</a></span></h6>
+        </div>
+    </div>
+
+    <!-- Top Button Start -->
+    <div class="top-button">
+        <a href="#top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    </div>
+    <!-- Main Div End -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

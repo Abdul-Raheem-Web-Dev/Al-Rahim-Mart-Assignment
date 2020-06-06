@@ -1,0 +1,63 @@
+/* Media Queries Start */
+
+/*  Header Media Query Start */
+@media screen and (max-width: 350px)
+{
+    #topBar
+    {
+        flex-direction: column !important;
+    }
+    .social-media-icons, .customer-account-activity-icons
+    {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .social-media-icons ul, .customer-account-activity-icons ul
+    {
+        margin: auto !important;
+    }
+    .social-media-icons ul li a, .customer-account-activity-icons ul li a
+    {
+        padding: 10px !important;
+    }
+}
+@media screen and (max-width: 592px)
+{
+    .cards
+    {
+        width: 94% !important;
+    }
+}
+@media screen and (max-width: 592px)
+{
+     #bottomBar
+    {
+        flex-direction: column;
+    }
+    .copyright, .credit
+    {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .footer-content
+    {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .search-box
+    {
+        width: 100% !important;
+        margin: 0px 0px 10px !important;
+    }
+    .search-btn
+    {
+        width: 99% !important;
+    }
+}
+/*  Header Media Query End */
+
